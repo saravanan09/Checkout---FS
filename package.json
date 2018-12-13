@@ -1,0 +1,22 @@
+{
+  "name": "fast-spring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "config": "^1.29.4",
+    "chromedriver": "^2.44.1",
+    "cucumber": "^4.0.0",
+    "cucumber-html-reporter": "^4.0.2",
+    "cucumber-junit": "^1.7.1",
+    "mocha": "^3.5.3",
+    "request-promise": "^4.2.2",
+    "selenium-webdriver": "^3.6.0"
+  }
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Fast Spring Checkout Page Validation",
+    "line": 1,
+    "id": "fast-spring-checkout-page-validation",
+    "tags": [],
+    "uri": "features\\checkout.feature",
+    "elements": [
+      {
+        "id": "fast-spring-checkout-page-validation;fast-spring-checkout-flow",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Fast Spring Checkout Flow",
+        "tags": [
+          {
+            "name": "@fastspring",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to the product checkout Page",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I select \"5\" product items from the dropdown",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I select \"CreditCard\" as Payment type",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter billing informations",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on Save Payment Details button",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be able to see the message \"Thank you for your order!\"",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I click on View Invoice link",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be navigated to new webpage containing invoice \"https://fschallenge.test.qa.onfastspring.com/account/order/\"",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click on Download Now button",
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5279000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Valliappan\\Desktop\\dealerportal_automation\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
