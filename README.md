@@ -69,11 +69,11 @@ My Folder
 
 # Running automated tests
 
-1. Clone "automationtests".
+1. Clone "Checkout---FS".
 
-2. open "automationtests" project using sublime or webstorm.
+2. open "Checkout---FS" project using visual studio code.
 
-3. open terminal & navigate to "automationtests" folder and execute below command to install mpm modules.
+3. open terminal & navigate to "Checkout---FS" folder and execute below command to install mpm modules.
 
 "npm install"
 
@@ -83,10 +83,10 @@ My Folder
 
 * Assuming the selenium standalone server is already up and running.
 
-The local build is placed in the root, `runTest.sh` and run:
+The local build is placed in the root, `test.sh` and run:
 
 ```bash
-./runTest.sh
+./test.sh
 ```
--- This executes test cases based tags mentioned in the "runTest.sh"
+-- This executes test cases based tags mentioned in the "test.sh"
 
