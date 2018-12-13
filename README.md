@@ -65,11 +65,7 @@ My Folder
 
 # IDE Installation
 ```
-5. Download and Install Sublime text or Webstorm
-
-https://www.sublimetext.com/download
-
-* webstorm need a license key.
+5. Download and Install Visual Studio Code
 
 # Running automated tests
 
